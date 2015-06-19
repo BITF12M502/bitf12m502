@@ -116,7 +116,7 @@
             </div>
             @foreach(var s in Model)
             {
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 col-sm-6" style="flex-wrap:wrap">
                 <a href="~/Story/Stories?id=@s.Id">
                     <img class="img-responsive img-portfolio img-hover" src="@s.Image" alt="">
                     <div class="carousel-caption">
@@ -125,46 +125,6 @@
                 </a>
             </div>
             }
-            @*<div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="images/story2.jpg" alt="">
-                    <div class="carousel-caption">
-                        <h2>Title here</h2>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="images/story3.jpg" alt="">
-                    <div class="carousel-caption">
-                        <h2>Title here</h2>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="images/story4.jpg" alt="">
-                    <div class="carousel-caption">
-                        <h2>Title here</h2>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="images/story5.jpg" alt="">
-                    <div class="carousel-caption">
-                        <h2>Title here</h2>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="images/story6.jpg" alt="">
-                    <div class="carousel-caption">
-                        <h2>Title here</h2>
-                    </div>
-                </a>
-            </div>*@
         </div>
         <hr>
     </div>
